@@ -1,0 +1,132 @@
+
+
+header{
+	height: 70px;
+	background-color: #404A44;
+	padding: 0 20px;
+	margin-bottom: 15px;
+}
+header p{
+	font-size: 20px;
+	color: #fff;
+	line-height: 30px;
+}
+header p a{
+	color: #FF931F;
+	text-decoration: none;
+}
+.exit a {
+	color: #FF931F;
+	display: block;
+	float: right;
+	font-size: 20px;
+	padding-top: 15px;
+}
+header a:hover,
+header a:focus{
+	list-style-type: none;
+	text-decoration: none;
+	color: #FF931F;
+}
+
+/**************MAIN****************/
+.main h1{
+	text-align: center;
+	font-style: italic;
+}
+.main{
+	font-size: 16px;
+	line-height: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/**************SIDEBAR*******************************/
+.sidebar{
+	background-color: #CFCFCF;
+	padding: 15px;
+}
+form{
+	padding-top: 10px;
+	border-radius: 2px;
+}
+form h4{
+	color: #777;
+	text-align: center;
+	font-weight: 500;
+    border: 1px dashed #777;
+    padding: 10px;
+    display: block;
+    width: 92%;
+    margin: 10px auto;
+}
+form .input{
+	background: #fbfbfb;
+	font-size: 24px;
+	line-height: 1;
+	width: 92%;
+	padding: 3px;
+	margin: 0 15px;
+    outline: none;
+    border: 1px solid #d9d9d9;
+}
+form .input:focus {
+	border: 1px solid #f58220;
+ 	-webkit-box-shadow: 0 0 3px 0 rgba(245,130,32,0.75);
+	-moz-box-shadow: 0 0 3px 0 rgba(245,130,32,0.75);
+ 	box-shadow: 0 0 3px 0 rgba(245,130,32,0.75);
+}
+label{
+	font-size: 16px;
+	margin-left: 15px; 
+}
+.button{
+	border: solid 1px #da7c0c;
+	background: #f78d1d;
+	background: -webkit-gradient(linear, left top, leftbottom, from(#faa51a), to(#f47a20));
+	background: -moz-linear-gradient(top,  #faa51a, #f47a20);
+  	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+    color: #fff;
+	padding: 8px 12px;
+	margin-right: 10px;
+	-webkit-border-radius:4px;
+	moz-border-radius:4px;
+ 	border-radius:4px;
+	float: right;
+	cursor: pointer;
+}
+.button:hover{
+	background: #f47c20;
+  	background: -webkit-gradient(linear, left top, leftbottom, from(#f88e11), to(#f06015));
+	background: -moz-linear-gradient(top,  #f88e11, #f06015);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015');
+}
+.adduser{
+	background-color: #fff;
+	margin: auto;
+	width: 320px;
+	height: 285px;
+	margin-bottom: 70px;
+	border-radius: 3px;
+}
+
+.deluser{
+	background-color: #fff;
+	margin: auto;
+	width: 320px;
+	height: 180px;
+	margin-bottom: 70px;
+	border-radius: 3px;
+}
+.deluser .input{
+	margin-bottom: 10px;
+}
