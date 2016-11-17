@@ -13,7 +13,9 @@ require_once 'includes/global.inc.php';
     <title>Register</title>
 </head>
 <body>
-<?php echo ($error != "") ? $error : ""; ?>
+
+
+
 <form action="register.php" method="POST">
     <ul>
         <li>
